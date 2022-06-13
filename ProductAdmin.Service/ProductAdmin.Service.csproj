@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductAdmin.DomainEntity\ProductAdmin.DomainEntity.csproj" />
+    <ProjectReference Include="..\ProductAdmin.Repositoroy\ProductAdmin.Repositoroy.csproj" />
+    <ProjectReference Include="..\ProductAdmin.RepositoryInterface\ProductAdmin.RepositoryInterface.csproj" />
+    <ProjectReference Include="..\ProductAdmin.ServiceInterface\ProductAdmin.ServiceInterface.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿using ProductAdmin.DomainEntity;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProductAdmin.RepositoryInterface
+{
+    public interface IProductRepository:IRepository<Product>
+    {
+       Task<IEnumerable<Product>> GetAll();
+    }
+}
