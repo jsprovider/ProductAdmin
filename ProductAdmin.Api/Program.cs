@@ -5,7 +5,7 @@ using ProductAdmin.Service;
 using ProductAdmin.ServiceInterface;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//This file has now merge two files progrm.cs and startup.cs
 // Add services to the container.
 
 builder.Services.AddControllers();
